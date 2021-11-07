@@ -1,4 +1,4 @@
-// Monster Moto Shield Example 
+// Monster Moto Shield Arduino Example 
 // code by: Alex Maximov
 
 #define MOTOR_CNT 2
@@ -31,7 +31,7 @@ void setup(){
     pinMode     (LED_pin, OUTPUT);
     digitalWrite(LED_pin, LOW);
 
-    for (uint8_t i = 0; i < MOTOR_CNT; i++){ // Initialize digital pins as outputs
+    for (uint8_t i = 0; i < MOTOR_CNT; i++){
           
         pinMode(INA_pin[i], OUTPUT);
         pinMode(INB_pin[i], OUTPUT);
