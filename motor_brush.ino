@@ -27,8 +27,6 @@ uint8_t LED_pin = 13;
 
 void setup(){
 
-    //Serial.begin(9600);
-
     pinMode     (LED_pin, OUTPUT);
     digitalWrite(LED_pin, LOW);
 
