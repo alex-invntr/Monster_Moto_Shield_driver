@@ -1,5 +1,6 @@
 // Monster Moto Shield Arduino Example 
 // code by: Alex Maximov
+// Distributed as-is; no warranty is given.
 
 #define MOTOR_CNT 2
 
